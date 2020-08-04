@@ -48,7 +48,7 @@
 	* Lesson 6. Testing your UI
 		* 6.1 espresso for UI testing
 
-### Unit 3: working in the background 
+* ### Unit 3: working in the background 
 
 	* Lesson 7: background tasks
 		* 7.1 asyncTask
@@ -60,7 +60,7 @@
 		* 8.2 the alarm manager
 		* 8.3 jobScedjuller
 
-### Unit 4:saving user data
+* ### Unit 4:saving user data
 
 	* Lesson 9: preferences and setting 
 		* 9.1 shared preferences
