@@ -5,14 +5,14 @@
 							********************************
 
 
-link referensi\n
-	+ [Doc Resmi grid](https://codelabs.developers.google.com/android-training/)\n
-	+ [Doc menu list](https://developer.android.com/courses/fundamentals-training/toc-v2#unit_2_user_experience)
+*link referensi
+	* [Doc Resmi grid](https://codelabs.developers.google.com/android-training/)
+	* [Doc menu list](https://developer.android.com/courses/fundamentals-training/toc-v2#unit_2_user_experience)
 
 					Daftar isi
 					**********
 
-Unit 1 : Get started
+*Unit 1 : Get started
 
 	Lesson 1: Build your first app
 		1.1 android studio and Hello World
@@ -31,7 +31,7 @@ Unit 1 : Get started
 		3.2 unit test
 		3.3 support libraries
 
-Unit 2: User Experience
+*Unit 2: User Experience
 
 	Lesson 4: User interaction
 		4.1 clickable image
@@ -48,7 +48,7 @@ Unit 2: User Experience
 	Lesson 6. Testing your UI
 		6.1 espresso for UI testing
 
-Unit 3: working in the background 
+*Unit 3: working in the background 
 
 	Lesson 7: background tasks
 		7.1 asyncTask
@@ -60,7 +60,7 @@ Unit 3: working in the background
 		8.2 the alarm manager
 		8.3 jobScedjuller
 
-Unit 4:saving user data
+*Unit 4:saving user data
 
 	Lesson 9: preferences and setting 
 		9.1 shared preferences
