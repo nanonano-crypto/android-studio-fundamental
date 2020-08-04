@@ -5,8 +5,8 @@
 							********************************
 
 
-link referensi 
-	+ [Doc Resmi grid](https://codelabs.developers.google.com/android-training/)
+link referensi\n
+	+ [Doc Resmi grid](https://codelabs.developers.google.com/android-training/)\n
 	+ [Doc menu list](https://developer.android.com/courses/fundamentals-training/toc-v2#unit_2_user_experience)
 
 					Daftar isi
