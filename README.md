@@ -32,6 +32,7 @@ Unit 1 : Get started
 		3.3 support libraries
 
 Unit 2: User Experience
+
 	Lesson 4: User interaction
 		4.1 clickable image
 		4.2 input coontrol
@@ -48,6 +49,7 @@ Unit 2: User Experience
 		6.1 espresso for UI testing
 
 Unit 3: working in the background 
+
 	Lesson 7: background tasks
 		7.1 asyncTask
 		7.2 asyncTask and asyncTask Loader
@@ -59,6 +61,7 @@ Unit 3: working in the background
 		8.3 jobScedjuller
 
 Unit 4:saving user data
+
 	Lesson 9: preferences and setting 
 		9.1 shared preferences
 		9.2 app setting
