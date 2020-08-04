@@ -5,14 +5,14 @@
 							********************************
 
 
-### link referensi
+* ### link referensi
 	* [Doc Resmi grid](https://codelabs.developers.google.com/android-training/)
 	* [Doc menu list](https://developer.android.com/courses/fundamentals-training/toc-v2#unit_2_user_experience)
 
 					Daftar isi
 					**********
 
-### Unit 1 : Get started
+* ### Unit 1 : Get started
 
 	* Lesson 1: Build your first app
 		* 1.1 android studio and Hello World
@@ -31,7 +31,7 @@
 		* 3.2 unit test
 		* 3.3 support libraries
 
-### Unit 2: User Experience
+* ### Unit 2: User Experience
 
 	* Lesson 4: User interaction
 		* 4.1 clickable image
