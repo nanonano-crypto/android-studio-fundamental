@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/order"
+        android:orderInCategory="100"
+        android:title="Order"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/status"
+        android:orderInCategory="100"
+        android:title="Status"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/favorite"
+        android:orderInCategory="100"
+        android:title="Favorite"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="100"
+        android:title="Contact"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/jam"
+        android:icon="@drawable/clock"
+        android:orderInCategory="100"
+        android:title="jam"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Favorite" />
+
+    <item
+        android:id="@+id/start"
+        android:icon="@drawable/ic_baseline_stars_24"
+        android:orderInCategory="100"
+        android:title="start"
+        app:showAsAction="always" />
+</menu>

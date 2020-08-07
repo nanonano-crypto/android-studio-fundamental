@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Android_fundamental</string>
+    <string name="log">Log.d("MainActivity", "Hello World");</string>
+    <string name="isi_hello_world">
+        \n *\t Log \t di gunakann untuk mengirim pesan ke panel
+        \n *\t\t d \t\t\t di gunakan untuk pengaturan level debug
+        \n *\t\t e\t\t\t dan w untuk pengaturan kesalahan
+        \n *\t\t i \t\t\t di gunakan untuk pesan info
+        \n\n * MainActivity class yang di pakai
+        \n * Hello world pesan yang di tampilkan
+    </string>
+    <string name="isi_scrollview">
+
+        <b>ScrollView</b> kelas menyediakan layout untuk tampilan bergulir.
+        \n<b>ScrollView</b> adalah subkelas dari FrameLayout.
+        Tempatkan hanya satu tampilan sebagai anak di dalamnya — tampilan anak berisi seluruh konten yang akan digulir.
+        Tampilan anak ini sendiri dapat berupa ViewGroup(misalnya LinearLayout) yang mengandung elemen UI.
+        Tata letak yang rumit dapat mengalami masalah kinerja dengan tampilan anak seperti gambar.
+        Pilihan yang baik untuk a Viewdalam ScrollViewadalah LinearLayoutyang diatur dalam orientasi vertikal,
+        menyajikan item yang dapat digulir pengguna (seperti TextViewelemen).
+        Dengan a ScrollView, semua elemen UI ada di memori dan dalam hierarki tampilan meskipun tidak ditampilkan di layar. Ini ScrollViewideal untuk menggulir halaman teks bentuk bebas dengan lancar, karena teks sudah ada dalam memori. Namun, ScrollViewdapat menggunakan banyak memori, yang dapat memengaruhi kinerja aplikasi Anda lainnya. Untuk menampilkan daftar panjang item yang pengguna dapat tambahkan, hapus dari, atau edit, pertimbangkan untuk menggunakan RecyclerView, yang dijelaskan dalam pelajaran terpisah.
+
+        \n\n
+        <b>Apa Yang Harus Anda Ketahui</b>
+        \n
+        Kamu harus bisa:
+        \n
+
+        Buat aplikasi Hello World dengan Android Studio. Jalankan aplikasi pada emulator atau perangkat.
+        Menerapkan a TextViewdalam tata letak untuk aplikasi. Buat dan gunakan sumber daya string.
+        \n\n
+        <b>Apa yang akan Anda pelajari</b>
+
+        \n1. Cara menggunakan kode XML untuk menambahkan banyak TextViewelemen.
+        \n2. Bagaimana cara menggunakan kode XML untuk mendefinisikan suatu scrolling View.
+        \n3. Cara menampilkan teks bentuk bebas dengan beberapa tag format HTML.
+        \n4. Cara menata TextViewwarna latar belakang dan warna teks.
+        \n5. Cara memasukkan tautan web ke dalam teks.
+
+        \n\n <b>Apa yang akan Anda lakukan</b>
+
+        \n1. Buat aplikasi ScrollingText.
+        \n2. Ubah ConstraintLayout ViewGroupke RelativeLayout.
+        \n3. Tambahkan dua TextViewelemen untuk judul artikel dan subjudul.
+        \n4. Gunakan TextAppearancegaya dan warna untuk tajuk dan subjudul artikel.
+        \n5. Gunakan tag HTML dalam string teks untuk mengontrol pemformatan.
+        \n6. Gunakan lineSpacingExtraatribut untuk menambahkan spasi baris agar mudah dibaca.
+        \n7. Tambahkan a ScrollViewke tata letak untuk mengaktifkan menggulir TextViewelemen.
+        \n8. Tambahkan autoLinkatribut untuk mengaktifkan URL dalam teks agar aktif dan dapat diklik.</string>
+    <string name="computationError">Error</string>
+    <string name="donut1">donut plong donut yang rasanya biking plong </string>
+    <string name="donut2">donut plung donut yang rasanya biking plang pling plung dengan varian warna </string>
+    <string name="donut3">donut strowbery enak di lidah enak di hati </string>
+    <string name="same_day_messenger_service">same_day_messenger_service</string>
+    <string name="next_day_ground_delivery">next_day_ground_delivery</string>
+    <string name="pick_up">pick_up</string>
+    <string name="action_order_message">anda memilih order</string>
+    <string name="action_status_message">anda memilih status</string>
+    <string name="action_favorites_message">anda memilih favorite</string>
+    <string name="action_contact_message">anda memilih contact</string>
+    <string name="action_like_message">anda memilih menu like</string>
+    <string name="action_cart_message">anda memilih menu cart</string>
+    <string name="action_start_message">anda memilih menu start message</string>
+
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+</resources>

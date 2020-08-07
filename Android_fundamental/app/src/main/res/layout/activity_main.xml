@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Android Fundamental"
+        android:textColor="#FFC107"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/round_hijau"
+                android:gravity="center|left"
+                android:onClick="btnPindah"
+                android:paddingLeft="20dp"
+                android:text="1. Hello World" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_cornsilk"
+                android:gravity="center|left"
+                android:onClick="btnUi"
+                android:paddingLeft="20dp"
+                android:text="2. UI interactive" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_crimson"
+                android:gravity="center|left"
+                android:onClick="btnRelative"
+                android:paddingLeft="20dp"
+                android:text="3. UI Relative "
+                android:textColor="#FFFFFF" />
+            <Button
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_dark_orange"
+            android:gravity="center|left"
+            android:onClick="btnScroll"
+            android:paddingLeft="20dp"
+            android:text="4. UI Scroll View "
+            android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round__dark_cyan"
+                android:gravity="center|left"
+                android:onClick="btnParsing"
+                android:paddingLeft="20dp"
+                android:text="5. UI Parsing data "
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_dark__orchid"
+                android:gravity="center|left"
+                android:onClick="btnImplisit"
+                android:paddingLeft="20dp"
+                android:text="6. Intent implisit "
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_dark_green"
+                android:gravity="center|left"
+                android:onClick="btnDebugger"
+                android:paddingLeft="20dp"
+                android:text="7. Debugger "
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_dark_magenta"
+                android:gravity="center|left"
+                android:onClick="btnUbahWarna"
+                android:paddingLeft="20dp"
+                android:text="8. Ubah Warna "
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_dark_red"
+                android:gravity="center|left"
+                android:onClick="btnImageClick"
+                android:paddingLeft="20dp"
+                android:text="9. Image Click "
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
