@@ -20,6 +20,7 @@
 		* 1.1 android studio and Hello World
 		* 1.2 part A : Your first interactive UI
 		* 1.2 part B : the layout editor
+
 				1. mengenal semua fungsi pada layout editor
 				2. membuat tampilan portrait dan landscape menjadi rapi
 				3. membuat 2 resource xml
@@ -27,12 +28,15 @@
 				5. mengenal relative layout
 
 		* 1.3 text and scrolling views
+
 				1. menggunakan layout scrollview
 		* 1.4 learn to help your self
+
 				1. menambahkan icon peluncur 
 
 	* Lesson 2: Activities and intent
 		* 2.1 activities and intent
+		
 				1. membuat intent dan parsing data
 		* 2.2 activities lifecycle and state
 				* 
@@ -66,11 +70,13 @@
 
 	* Lesson 3: Testing debugging annd using support libraries
 		* 3.1 the debugger
+
 				1. menggunakan Log untuk menampilkan pesan ke panel
 				2. mendebug sangat penting untuk  programer karena dengan mendebug kita bisa mencari error denga lebih cepat
 
 		* 3.2 unit test
 		* 3.3 support libraries
+
 				1. membuat text berubah warna dengan library yang sudah ada
 				2. banyak menyimpan warna di color.xml
 
@@ -78,17 +84,21 @@
 
 	* Lesson 4: User interaction
 		* 4.1 clickable image
+
 				1. menambahkan gambar ke tata letak
 
 		* 4.2 input control
+
 				1. menambahkan editText, radioButon, dan spinner sabagai latihan
 		* 4.3 menus and pickers
+
 				1. menambahkan menu main app
 				2. menambahkan dialog 
 				3. menambahkan calender
 				4. menambahkan jam analog
 				
 		* 4.4 user navigation
+
 				1. membuat menu navigation
 
 		* 4.5 recycle view
