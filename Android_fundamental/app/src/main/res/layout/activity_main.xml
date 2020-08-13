@@ -130,6 +130,18 @@
                 android:paddingLeft="20dp"
                 android:text="9. Image Click "
                 android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_dark_salmon"
+                android:gravity="center|left"
+                android:onClick="btnTab"
+                android:paddingLeft="20dp"
+                android:text="10. Tab fragment "
+                android:textColor="#FFFFFF" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

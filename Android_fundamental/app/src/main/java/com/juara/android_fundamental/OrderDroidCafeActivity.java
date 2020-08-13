@@ -62,6 +62,11 @@ public class OrderDroidCafeActivity extends AppCompatActivity implements Adapter
         jam = findViewById(R.id.et_jam);
         imgJam = findViewById(R.id.img_jam);
 
+        Intent intent = getIntent();
+        String message = intent.getStringExtra(ImageBasicActivity.EXTRA_MESSAGE);
+        TextView textView = findViewById(R.id.order_active);
+        textView.setText(message);
+
         //jam
         imgJam.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -183,7 +188,7 @@ public class OrderDroidCafeActivity extends AppCompatActivity implements Adapter
                 break;
             default:
                 // Do nothing.
-                break; 
+                break;
         }
     }
 

@@ -100,6 +100,10 @@
 		* 4.4 user navigation
 
 				1. membuat menu navigation
+				2. menambahkan basic_activity
+				3. membuat menu tab 
+				4. membuat drawer nav 
+
 
 		* 4.5 recycle view
 

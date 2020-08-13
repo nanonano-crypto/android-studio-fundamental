@@ -56,7 +56,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnImageClick(View view) {
-        Intent intent = new Intent(MainActivity.this, ImageClickActivity.class);
+        Intent intent = new Intent(MainActivity.this, ImageBasicActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnTab(View view) {
+        Intent intent = new Intent(MainActivity.this, TabListActivity.class);
         startActivity(intent);
     }
 }

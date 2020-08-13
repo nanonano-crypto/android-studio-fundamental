@@ -9,8 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OrderDroidCafeActivity"></activity>
-        <activity android:name=".ImageClickActivity" />
+        <activity android:name=".Frag2_Pesan" />
+        <activity android:name=".Frag1_Kontak" />
+        <activity android:name=".TabWildhanTechnoActivity" />
+        <activity android:name=".tab_jago.TemanActivity" />
+        <activity android:name=".tab_jago.BeritaActivity" />
+        <activity android:name=".tab_jago.BerandaActivity" />
+        <activity android:name=".TabJagoCodingActivity" />
+        <activity android:name=".TabListActivity" />
+        <activity android:name=".TabActivity" />
+        <activity
+            android:name=".ImageBasicActivity"
+            android:label="@string/title_activity_image_basic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OrderDroidCafeActivity" />
         <activity android:name=".UbahWarnaActivity" />
         <activity android:name=".DebuggerActivity" />
         <activity android:name=".ImplisitActivity" />

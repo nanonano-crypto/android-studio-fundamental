@@ -1,34 +1,35 @@
 package com.juara.android_fundamental;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-public class ImageClickActivity extends AppCompatActivity {
+public class ImageBasicActivity extends AppCompatActivity {
 
-    private ImageView satu, dua, tiga, next;
+    private ImageView satu, dua, tiga;
+    public static final String EXTRA_MESSAGE =
+            "com.juara.android_fundamental.extra.MESSAGE";
+    private String mOrderMessage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_image_click);
+        setContentView(R.layout.activity_image_basic);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         satu = findViewById(R.id.imgSatu);
         dua = findViewById(R.id.imgDua);
         tiga = findViewById(R.id.img_tiga);
-        next = findViewById(R.id.img_next);
 
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ImageClickActivity.this, OrderDroidCafeActivity.class);
-                startActivity(intent);
-            }
-        });
         satu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,6 +46,17 @@ public class ImageClickActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 displayToast("anda memilih  donut tiga");
+            }
+        });
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ImageBasicActivity.this,
+                        OrderDroidCafeActivity.class);
+                intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
+                startActivity(intent);
             }
         });
     }
